@@ -50,9 +50,9 @@ body {
 /* Configurandi os span das divisões */
 .relogio span {
     font-weight: 600;
-    font-size: 37px;
+    font-size: 30px;
 }
 .relogio span.tempo {
-    font-size: 7px;
+    font-size: 5px;
     padding-bottom: 5px;
 }
