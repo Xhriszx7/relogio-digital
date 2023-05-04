@@ -1,0 +1,57 @@
+/* Variaveis */
+:root {
+    --fonte: 'Open Sans', sans-serif;
+    --cor-um: #9d00ff;
+    --cor-dois: #001bff;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte);
+}
+
+/* Configurando Body */
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, var(--cor-um), var(--cor-dois));
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Configurando a Divisão Principal */
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .5)
+}
+/* Configurando as divisões das horas */
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+/* Configurandi os span das divisões */
+.relogio span {
+    font-weight: 600;
+    font-size: 60px;
+}
+.relogio span.tempo {
+    font-size: 10px;
+}
