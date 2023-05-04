@@ -16,7 +16,7 @@
 body {
     height: 100vh;
     background: linear-gradient(120deg, var(--cor-um), var(--cor-dois));
-    
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,16 +27,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 200px;
-    width: 550px;
+    height: 75px;
+    width: 220px;
     background: transparent;
-    border-radius: 3px;
+    border-radius: 2px;
     box-shadow: 0 8px 10px rgba(0, 0, 0, .5)
 }
 /* Configurando as divisões das horas */
 .relogio div {
-    height: 170px;
-    width: 150px;
+    height: 60px;
+    width: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,14 +44,15 @@ body {
     color: #fff;
     background: rgba(5, 5, 5, .9);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
-    border-radius: 7px;
-    letter-spacing: 3px;
+    border-radius: 3px;
+    letter-spacing: 2px;
 }
 /* Configurandi os span das divisões */
 .relogio span {
     font-weight: 600;
-    font-size: 60px;
+    font-size: 37px;
 }
 .relogio span.tempo {
-    font-size: 10px;
-}
+    font-size: 7px;
+    padding-bottom: 5px;
+}Design: Mobile
